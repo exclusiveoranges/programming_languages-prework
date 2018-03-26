@@ -1,7 +1,7 @@
 require 'pry'
 
 def reformat_languages(languages)
-  binding.pry
+  # binding.pry
   h1 = languages[:oo]
   h2 = languages[:functional]
   h1.merge(h2)
